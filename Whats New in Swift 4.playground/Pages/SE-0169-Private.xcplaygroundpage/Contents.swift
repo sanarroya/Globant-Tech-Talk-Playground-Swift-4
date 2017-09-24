@@ -4,13 +4,19 @@
  */
 import Foundation
 
-class TechTalk {
-    fileprivate var speakerName: String?
-}
-
-extension TechTalk {
-    func updateSpeakerName(_ name: String) {
-        speakerName = name
+class Speaker: NSObject {
+    fileprivate var name: String
+    fileprivate var site: String
+    
+    init(name: String, site: String) {
+        self.name = name
+        self.site = site
     }
 }
-//: [Next](@next)
+
+extension Speaker {
+    func updateName(_ name: String) {
+        self.name = name
+    }
+}
+//:[**Previous**](@previous)[    **Next**](@next)

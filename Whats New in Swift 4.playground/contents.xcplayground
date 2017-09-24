@@ -1,9 +1,15 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<playground version='6.0' target-platform='ios' display-mode='rendered'>
+<playground version='6.0' target-platform='ios' display-mode='raw'>
     <pages>
+        <page name='Welcome Page'/>
         <page name='Table of contents'/>
-        <page name='SE-0172'/>
-        <page name='SE-0163-0168'/>
-        <page name='SE-0169'/>
+        <page name='SE-0163-0168-Strings'/>
+        <page name='SE-0172-Ranges'/>
+        <page name='SE-0169-Private'/>
+        <page name='SE-0160-Objc-Inference'/>
+        <page name='SE-0161-SmartKeypaths'/>
+        <page name='SE-0165-Dictionary-Enhancements'/>
+        <page name='SE-0173-swapAt'/>
+        <page name='SE-0156-ComposingClassesAndProtocols'/>
     </pages>
 </playground>

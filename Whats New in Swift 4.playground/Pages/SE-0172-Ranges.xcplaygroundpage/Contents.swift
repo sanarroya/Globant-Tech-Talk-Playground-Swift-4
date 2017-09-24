@@ -13,21 +13,20 @@ extension String: LocalizedError {
 }
 
 let food = ["🍔", "🌯", "🌮"]
+//:**Swift 3**
 
-let numberedFood = zip(1..., food)
-Array(numberedFood)
+//:**Swift 4**
 
 /*:
  ### Collection subscripts
  */
 
-var whatsNew = "Hello, what's new in Swift 4"
-guard let index = whatsNew.index(of: ",") else {
-    throw "😱"
-}
+let whatsNew = "Hello, what's new in Swift 4"
 
-let hello = whatsNew[..<index]
-let new = whatsNew[index...]
+//:**Swift 3**
+
+//:**Swift 4**
+
 
 /*:
  ### Pattern Matching
@@ -43,3 +42,4 @@ case 1...:
 default:
     print("Not in range")
 }
+//:[**Previous**](@previous)[    **Next**](@next)

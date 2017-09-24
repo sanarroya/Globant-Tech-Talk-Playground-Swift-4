@@ -1,4 +1,4 @@
-/*: [Previous](@previous)
+/*: 
  ## [SE-0161] Smart key paths:
  New strongly typed keypaths
  */
@@ -30,30 +30,29 @@ import Foundation
     }
 }
 
-let placeholderSpeaker = Speaker(name: "", site: "")
+let blankSpeaker = Speaker(name: "", site: "Salitre")
 let santiago = Speaker(name: "Santiago Avila", site: "Salitre")
-let swift4Talk = TechTalk(title: "What's new in Swift 4 and Xcode 9", speaker: placeholderSpeaker)
+let techTalk = TechTalk(title: "What's new in Swift 4", speaker: blankSpeaker)
 
 /*:
  Key paths are formed by starting at a root type and drilling down any combination of property and subscript names.
  
  You write a key path by starting with a backslash: `\Book.title`. Every type automatically gets a `[keyPath: …]` subscript to get or set the value at the specified key path.
  */
-swift4Talk[keyPath: \TechTalk.title]
+techTalk[keyPath: \TechTalk.title]
 // Key paths can to drill down and work for computed properties
 
 /*:
  Key paths are objects that can be stored and manipulated. For example, you can append additional segments to a key path to drill down further.
  */
-//let authorKeyPath = \TechTalk.speakers
-//type(of: authorKeyPath)
-//let titleKeyPath = authorKeyPath.appending(path: \TechTalk.title) // you can omit the type name if the compiler can infer it
-//swift4[keyPath: titleKeyPath]
+let speakerKeyPath = \TechTalk.speaker
+type(of: speakerKeyPath)
+let titleKeyPath = speakerKeyPath.appending(path: \.site) // you can omit the type name if the compiler can infer it
+techTalk[keyPath: titleKeyPath]
 
 /*:
  ### Key value observing using key paths
  */
-swift4Talk.speaker = santiago
-let fabian = Speaker(name: "Fabian Rodriguez", site: "Este")
-swift4Talk.speaker = fabian
-//: [Next](@next)
+techTalk.speaker = santiago
+
+//:[**Previous**](@previous)[    **Next**](@next)
