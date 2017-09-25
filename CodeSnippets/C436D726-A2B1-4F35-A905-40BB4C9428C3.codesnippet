@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>keyPathTechTalk</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>All</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>@objcMembers class TechTalk: NSObject {
+    dynamic var title: String!
+    dynamic var speaker: Speaker!
+    
+    init(title: String, speaker: Speaker) {
+        super.init()
+        self.title = title
+        self.speaker = speaker
+    }
+}</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>C436D726-A2B1-4F35-A905-40BB4C9428C3</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Generic</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>keyPathTechTalk</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>

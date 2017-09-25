@@ -17,15 +17,26 @@ import Foundation
 @objcMembers class TechTalk: NSObject {
     dynamic var title: String!
     dynamic var speaker: Speaker!
-    var observation: NSKeyValueObservation!
+    private var observation: NSKeyValueObservation!
+    private var techTalkContext = 0
     
     init(title: String, speaker: Speaker) {
         super.init()
         self.title = title
         self.speaker = speaker
+        self.addObserver(self, forKeyPath: "speaker", options: .new, context: &techTalkContext)
         self.observation = observe(\.speaker){ observed, changed in
             print("Speaker name: \(observed.speaker.name)")
             print("Speaker site: \(observed.speaker.site)")
+        }
+    }
+    
+    override func observeValue(forKeyPath keyPath: String?, of object: Any?, change: [NSKeyValueChangeKey : Any]?, context: UnsafeMutableRawPointer?) {
+        if context == &techTalkContext {
+            if let newSpeaker = change?[.newKey] as? Speaker {
+                print("KVO Speaker name: \(newSpeaker.name)")
+                print("KVO Speaker site: \(newSpeaker.site)")
+            }
         }
     }
 }
@@ -51,8 +62,9 @@ let titleKeyPath = speakerKeyPath.appending(path: \.site) // you can omit the ty
 techTalk[keyPath: titleKeyPath]
 
 /*:
- ### Key value observing using key paths
+ ### Key value observing
  */
+
 techTalk.speaker = santiago
 
 //:[**Previous**](@previous)[    **Next**](@next)

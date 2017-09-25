@@ -21,7 +21,7 @@ foodDictionary["Burrito"]
 foodDictionary["Hot Dog", default: "❌"]
 /*:
  
- ### Dictionary specific map and fil
+ ### Dictionary specific map and filter
  
  `filter` and `mapValues` return a `Dictionary` not an `Array`.
  */
@@ -30,9 +30,17 @@ type(of: filteredFood)
 filteredFood
 /*:
  
- ### Dictionary specific map and fil
+ ### `Set.filter` also returns a `Set` now and not an `Array`
+ */
+let foodSet: Set = ["🍔", "🌯", "🌮"]
+let burguer = foodSet.filter({ $0 != "🍔" })
+type(of: burguer)
+burguer
+/*:
  
- `filter` and `mapValues` return a `Dictionary` not an `Array`.
+ ### Grouping a sequence
+ 
+ Group a sequence of values into buckets.
  */
 
 let contacts = ["Julia", "Susan", "John", "Alice", "Alex"]

@@ -7,20 +7,20 @@
  1. [Strings](SE-0163-0168-Strings)
  1. [One-Sided Ranges](SE-0172-Ranges)
  1. [Private declarations](SE-0169-Private)
+ 1. [Limiting `@objc` inference](SE-0160-Objc-Inference)
  1. [Key paths](SE-0161-SmartKeyPaths)
+ 1. [`Dictionary` and `Set` enhancements](SE-0165-Dictionary-Enhancements)
  1. [Encoding and Decoding]()
- 1. [`Dictionary` and `Set` enhancements]()
- 1. [`SwapAt` method]()
- 1. [`reduce` with `inout`]()
- 1. [Composing classes and protocols]()
- 1. [Limiting `@objc` inference]()
+ 1. [`SwapAt` method](SE-0173-swapAt)
+ 1. [Composing classes and protocols](SE-0156-ComposingClassesAndProtocols)
+ 
 
  ## Required Tools
  
  This playground requires Swift 4. Xcode 9 includes Swift 4 by default. You can also run it in Xcode 8.3, but you need to install a Swift 4 toolchain (donʼt worry, itʼs easy):
  1. Download [the Swift 4.0 release from swift.org][Snapshot downloads].
  1. Run the installer to install the snapshot.
- 1. In Xcode, go to _Preferences > Components > Toolchains…_ and select Swift 4.0:
+ 1. In Xcode, go to _Preferences > Components > Toolchains…_ and select Swift 4.0 RELEASE:
  
  ![][xcode-8-3-toolchain-dialog]
  

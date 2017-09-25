@@ -6,7 +6,7 @@ import Foundation
 
 class Speaker: NSObject {
     fileprivate var name: String
-    fileprivate var site: String
+    var site: String
     
     init(name: String, site: String) {
         self.name = name

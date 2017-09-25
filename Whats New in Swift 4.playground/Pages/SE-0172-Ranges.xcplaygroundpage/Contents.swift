@@ -30,6 +30,7 @@ let whatsNew = "Hello, what's new in Swift 4"
 
 /*:
  ### Pattern Matching
+ One sided ranges can be used in pattern matching constructs, e.g. in a `case` expression in a `switch` statement. The compiler can't determine that the `switch` is exhaustive.
  */
 let value = 5
 switch value {

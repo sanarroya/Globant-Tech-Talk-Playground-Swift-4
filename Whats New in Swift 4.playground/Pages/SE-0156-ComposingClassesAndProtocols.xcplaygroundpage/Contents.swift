@@ -32,4 +32,5 @@ class TechTalk: NSObject {
 
 let speaker = Speaker(name: "", project: "")
 
-//:[**Previous**](@previous)
+//:[**Previous**](@previous)[    **Next**](@next)
+

@@ -1,6 +1,6 @@
 /*: [Previous](@previous)
  ## Strings
- ### [SE-0163](https://github.com/apple/swift-evolution/blob/master/proposals/0163-string-revision-1.md) Collection Conformance
+ ### [SE-0163] Collection Conformance
  ###
 */
 import Foundation

@@ -3,23 +3,49 @@
    version = "3.0">
    <TimelineItems>
       <LoggerValueHistoryTimelineItem
-         documentLocation = "file:///Users/santiagoavilaarroyave/Documents/Apps/Globant-Tech-Talk-Playground-Swift-4/Whats%20New%20in%20Swift%204.playground/Pages/SE-0165-Dictionary-Enhancements.xcplaygroundpage#CharacterRangeLen=25&amp;CharacterRangeLoc=356&amp;EndingColumnNumber=0&amp;EndingLineNumber=14&amp;StartingColumnNumber=1&amp;StartingLineNumber=13&amp;Timestamp=527921561.038846"
+         documentLocation = "file:///Users/santiagoavilaarroyave/Documents/Apps/Globant-Tech-Talk-Playground-Swift-4/Whats%20New%20in%20Swift%204.playground/Pages/SE-0165-Dictionary-Enhancements.xcplaygroundpage#CharacterRangeLen=25&amp;CharacterRangeLoc=356&amp;EndingColumnNumber=0&amp;EndingLineNumber=14&amp;StartingColumnNumber=1&amp;StartingLineNumber=13&amp;Timestamp=528006939.284155"
          selectedRepresentationIndex = "0"
          shouldTrackSuperviewWidth = "NO">
       </LoggerValueHistoryTimelineItem>
       <LoggerValueHistoryTimelineItem
-         documentLocation = "file:///Users/santiagoavilaarroyave/Documents/Apps/Globant-Tech-Talk-Playground-Swift-4/Whats%20New%20in%20Swift%204.playground/Pages/SE-0165-Dictionary-Enhancements.xcplaygroundpage#CharacterRangeLen=12&amp;CharacterRangeLoc=799&amp;EndingColumnNumber=0&amp;EndingLineNumber=30&amp;StartingColumnNumber=1&amp;StartingLineNumber=29&amp;Timestamp=527921561.039053"
+         documentLocation = "file:///Users/santiagoavilaarroyave/Documents/Apps/Globant-Tech-Talk-Playground-Swift-4/Whats%20New%20in%20Swift%204.playground/Pages/SE-0165-Dictionary-Enhancements.xcplaygroundpage#CharacterRangeLen=12&amp;CharacterRangeLoc=802&amp;EndingColumnNumber=0&amp;EndingLineNumber=30&amp;StartingColumnNumber=1&amp;StartingLineNumber=29&amp;Timestamp=528006939.284323"
          lockedSize = "{563, 149}"
          selectedRepresentationIndex = "0"
          shouldTrackSuperviewWidth = "NO">
       </LoggerValueHistoryTimelineItem>
       <LoggerValueHistoryTimelineItem
-         documentLocation = "file:///Users/santiagoavilaarroyave/Documents/Apps/Globant-Tech-Talk-Playground-Swift-4/Whats%20New%20in%20Swift%204.playground/Pages/SE-0165-Dictionary-Enhancements.xcplaygroundpage#CharacterRangeLen=15&amp;CharacterRangeLoc=1057&amp;EndingColumnNumber=0&amp;EndingLineNumber=40&amp;StartingColumnNumber=1&amp;StartingLineNumber=39&amp;Timestamp=527921561.039216"
+         documentLocation = "file:///Users/santiagoavilaarroyave/Documents/Apps/Globant-Tech-Talk-Playground-Swift-4/Whats%20New%20in%20Swift%204.playground/Pages/SE-0165-Dictionary-Enhancements.xcplaygroundpage#CharacterRangeLen=15&amp;CharacterRangeLoc=1165&amp;EndingColumnNumber=46&amp;EndingLineNumber=46&amp;StartingColumnNumber=31&amp;StartingLineNumber=46&amp;Timestamp=528006939.284451"
          selectedRepresentationIndex = "0"
          shouldTrackSuperviewWidth = "NO">
       </LoggerValueHistoryTimelineItem>
       <LoggerValueHistoryTimelineItem
-         documentLocation = "file:///Users/santiagoavilaarroyave/Documents/Apps/Globant-Tech-Talk-Playground-Swift-4/Whats%20New%20in%20Swift%204.playground/Pages/SE-0165-Dictionary-Enhancements.xcplaygroundpage#CharacterRangeLen=39&amp;CharacterRangeLoc=556&amp;EndingColumnNumber=0&amp;EndingLineNumber=21&amp;StartingColumnNumber=1&amp;StartingLineNumber=20&amp;Timestamp=527921561.039365"
+         documentLocation = "file:///Users/santiagoavilaarroyave/Documents/Apps/Globant-Tech-Talk-Playground-Swift-4/Whats%20New%20in%20Swift%204.playground/Pages/SE-0165-Dictionary-Enhancements.xcplaygroundpage#CharacterRangeLen=39&amp;CharacterRangeLoc=556&amp;EndingColumnNumber=0&amp;EndingLineNumber=21&amp;StartingColumnNumber=1&amp;StartingLineNumber=20&amp;Timestamp=528006939.28457"
+         selectedRepresentationIndex = "0"
+         shouldTrackSuperviewWidth = "NO">
+      </LoggerValueHistoryTimelineItem>
+      <LoggerValueHistoryTimelineItem
+         documentLocation = "file:///Users/santiagoavilaarroyave/Documents/Apps/Globant-Tech-Talk-Playground-Swift-4/Whats%20New%20in%20Swift%204.playground/Pages/SE-0165-Dictionary-Enhancements.xcplaygroundpage#CharacterRangeLen=22&amp;CharacterRangeLoc=779&amp;EndingColumnNumber=0&amp;EndingLineNumber=29&amp;StartingColumnNumber=1&amp;StartingLineNumber=28&amp;Timestamp=528006939.284687"
+         lockedSize = "{273, 50}"
+         selectedRepresentationIndex = "0"
+         shouldTrackSuperviewWidth = "NO">
+      </LoggerValueHistoryTimelineItem>
+      <LoggerValueHistoryTimelineItem
+         documentLocation = "file:///Users/santiagoavilaarroyave/Documents/Apps/Globant-Tech-Talk-Playground-Swift-4/Whats%20New%20in%20Swift%204.playground/Pages/SE-0165-Dictionary-Enhancements.xcplaygroundpage#CharacterRangeLen=8&amp;CharacterRangeLoc=987&amp;EndingColumnNumber=0&amp;EndingLineNumber=38&amp;StartingColumnNumber=0&amp;StartingLineNumber=37&amp;Timestamp=528006939.284806"
+         selectedRepresentationIndex = "0"
+         shouldTrackSuperviewWidth = "NO">
+      </LoggerValueHistoryTimelineItem>
+      <LoggerValueHistoryTimelineItem
+         documentLocation = "file:///Users/santiagoavilaarroyave/Documents/Apps/Globant-Tech-Talk-Playground-Swift-4/Whats%20New%20in%20Swift%204.playground/Pages/SE-0165-Dictionary-Enhancements.xcplaygroundpage#CharacterRangeLen=17&amp;CharacterRangeLoc=970&amp;EndingColumnNumber=0&amp;EndingLineNumber=37&amp;StartingColumnNumber=1&amp;StartingLineNumber=36&amp;Timestamp=528006939.284919"
+         selectedRepresentationIndex = "0"
+         shouldTrackSuperviewWidth = "NO">
+      </LoggerValueHistoryTimelineItem>
+      <LoggerValueHistoryTimelineItem
+         documentLocation = "file:///Users/santiagoavilaarroyave/Documents/Apps/Globant-Tech-Talk-Playground-Swift-4/Whats%20New%20in%20Swift%204.playground/Pages/SE-0165-Dictionary-Enhancements.xcplaygroundpage#CharacterRangeLen=7&amp;CharacterRangeLoc=988&amp;EndingColumnNumber=0&amp;EndingLineNumber=38&amp;StartingColumnNumber=1&amp;StartingLineNumber=37&amp;Timestamp=528006939.28503"
+         selectedRepresentationIndex = "0"
+         shouldTrackSuperviewWidth = "NO">
+      </LoggerValueHistoryTimelineItem>
+      <LoggerValueHistoryTimelineItem
+         documentLocation = "file:///Users/santiagoavilaarroyave/Documents/Apps/Globant-Tech-Talk-Playground-Swift-4/Whats%20New%20in%20Swift%204.playground/Pages/SE-0165-Dictionary-Enhancements.xcplaygroundpage#CharacterRangeLen=15&amp;CharacterRangeLoc=1207&amp;EndingColumnNumber=0&amp;EndingLineNumber=48&amp;StartingColumnNumber=1&amp;StartingLineNumber=47&amp;Timestamp=528006939.285144"
          selectedRepresentationIndex = "0"
          shouldTrackSuperviewWidth = "NO">
       </LoggerValueHistoryTimelineItem>
