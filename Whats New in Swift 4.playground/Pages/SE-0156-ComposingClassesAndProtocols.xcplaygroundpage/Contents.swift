@@ -16,13 +16,10 @@ class Speaker: NSObject {
     }
 }
 
-protocol SpeakerProtocol {}
-
-extension Speaker: SpeakerProtocol {}
 
 class TechTalk: NSObject {
     var title: String
-    var speaker: Speaker & SpeakerProtocol
+    var speaker: Speaker
     
     init(title: String, speaker: Speaker) {
         self.title = title
@@ -30,7 +27,7 @@ class TechTalk: NSObject {
     }
 }
 
-let speaker = Speaker(name: "", project: "")
+
 
 //:[**Previous**](@previous)[    **Next**](@next)
 

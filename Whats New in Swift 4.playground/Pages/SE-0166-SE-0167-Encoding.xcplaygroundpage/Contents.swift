@@ -29,17 +29,7 @@ struct Commit: Codable {
     let author: Author
     let message: String
     let comment_count: Int
-    
-    private enum CodingKeys: String, CodingKey {
-        case url
-        case message
-        case author
-        case comment_count
-    }
 }
 
-let decoder = JSONDecoder()
-decoder.dateDecodingStrategy = .iso8601
-let commit = try decoder.decode(Commit.self, from: jsonData)
-print(commit.comment_count)
+
 //:[**Previous**](@previous)[    **Next**](@next)
