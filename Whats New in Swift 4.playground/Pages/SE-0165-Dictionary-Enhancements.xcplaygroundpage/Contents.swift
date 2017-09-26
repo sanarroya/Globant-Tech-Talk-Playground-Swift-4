@@ -28,6 +28,9 @@ foodDictionary["Hot Dog", default: "❌"]
 let filteredFood = foodDictionary.filter { $0.key != "Hamburger" }
 type(of: filteredFood)
 filteredFood
+let comboFood = foodDictionary.mapValues { $0 + "🍟" }
+type(of: comboFood)
+comboFood
 /*:
  
  ### `Set.filter` also returns a `Set` now and not an `Array`
