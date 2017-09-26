@@ -28,4 +28,10 @@ class Speaker: NSObject {
     }
 }
 
+@nonobjc extension Speaker {
+    func updateSpeaker() {
+        
+    }
+}
+
 //:[**Previous**](@previous)[    **Next**](@next)

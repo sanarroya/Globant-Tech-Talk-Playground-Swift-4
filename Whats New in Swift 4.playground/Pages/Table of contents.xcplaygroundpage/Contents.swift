@@ -10,7 +10,7 @@
  1. [Limiting `@objc` inference](SE-0160-Objc-Inference)
  1. [Key paths](SE-0161-SmartKeyPaths)
  1. [`Dictionary` and `Set` enhancements](SE-0165-Dictionary-Enhancements)
- 1. [Encoding and Decoding]()
+ 1. [Encoding and Decoding](SE-0166-SE-0167- Encoding)
  1. [`SwapAt` method](SE-0173-swapAt)
  1. [Composing classes and protocols](SE-0156-ComposingClassesAndProtocols)
  

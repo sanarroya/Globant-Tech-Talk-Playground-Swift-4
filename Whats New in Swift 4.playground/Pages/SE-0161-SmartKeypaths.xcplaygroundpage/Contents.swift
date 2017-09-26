@@ -26,6 +26,7 @@ import Foundation
         self.speaker = speaker
         self.addObserver(self, forKeyPath: "speaker", options: .new, context: &techTalkContext)
         self.observation = observe(\.speaker){ observed, changed in
+            print(changed)
             print("Speaker name: \(observed.speaker.name)")
             print("Speaker site: \(observed.speaker.site)")
         }
