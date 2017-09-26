@@ -1,6 +1,8 @@
-//: [Previous](@previous)
-
-//: [Next](@next)
+/*:
+ ## [SE-0166] Archival and serialization
+ 
+ Defines a way for any Swift type (classes, structs and enums) to describe how to archive and serialize itself.
+ */
 import Foundation
 
 let jsonData = """
@@ -40,3 +42,4 @@ let decoder = JSONDecoder()
 decoder.dateDecodingStrategy = .iso8601
 let commit = try decoder.decode(Commit.self, from: jsonData)
 print(commit.comment_count)
+//:[**Previous**](@previous)[    **Next**](@next)
